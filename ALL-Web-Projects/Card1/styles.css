@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 30px auto;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1 {
+    width: 300px;
+    height:420px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Image {
+   padding: 10px;
+}
+
+.Image img{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.content{
+    font-family: "Ubuntu", serif;
+    padding: 10px;
+}
+
+.content p{
+    font-size: 14.5px;
+    font-weight: 50;
+}
+
+.content h1{
+    font-size: 30px;
+    font-weight: 380;
+    margin-bottom: 5px;
+}
+
+.intro{
+    padding: 4px 5px 4px 15px;
+}
+
+.intro span{
+    border: 3px solid rgb(219, 126, 240);
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(241, 23, 143);
+
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    padding: 4px;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(241, 23, 143);
+    background-color: rgb(159, 243, 244);
+}
