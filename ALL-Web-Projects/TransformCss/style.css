@@ -5,19 +5,20 @@
 }
 
 .heading{
-height: 100px;
+height: 50px;
 color: aliceblue;
 display: flex;
 align-items: center;
 justify-content: center;
 background-color: black;
-font-size: 110px;
+font-size: 45px;
+margin-top: 5px;
 }
 
-.wrap {
-    margin: 30px auto;
-    max-width: 1000px;
-    width: 90vw;
+.Container {
+    margin: 10px auto;
+    box-sizing: border-box;
+    width: 80vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -32,7 +33,7 @@ font-size: 110px;
     cursor: pointer;
     color: #0b27fb;
     text-align: center;
-    height: 150px;
+    height: 120px;
     border-radius: 15px;
     border: 2px solid rgb(78, 25, 239);
   }
@@ -40,7 +41,7 @@ font-size: 110px;
   
   .blue {
     background-color: rgba(27, 220, 40, 0.5);
-    height: 150px;
+    height: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
