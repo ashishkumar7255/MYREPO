@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -10,54 +12,144 @@
     background-position: center;
     height: 92vh;
     width: 100%;
+    position: relative;
 }
 
 .overbox {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 92vh;
-    opacity: .65;
+    background-color: rgba(0, 0, 0, .65);
+    height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
+    left: 0;
 }
 
-nav{
+nav {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 15vh;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
-nav .leftnav{
-    position: relative;
-    z-index: 50;
+nav .leftnav {
+    z-index: 1;
 }
 
-nav .rightnav button{
-    position: relative;
-    font-size: 20px;
+nav .rightnav{
+    z-index: 1;
 }
 
-.center{
-    margin-top: 80px;
+nav .rightnav button {
+    font-size: 18px;    
+    color: white;
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+nav .rightnav .lang{
+    background: transparent;
+}
+
+.center {
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     position: relative;
+    font-family: "Martel Sans", serif;
+    text-align: center;
 }
 
-.center .hed{
-    font-size: 75px;
-    font-weight: 600;
-    position: relative;
+.center .hed {
+    margin-top: 5px;
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 900;
 }
 
-.center .para1{
-    position: relative;
-    font-size: 25px;
-    font-weight: 550;
+.center .para1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.center .para2 {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .center .hed {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .center .para1, .center .para2 {
+        font-size: 14px;
+    }
+}
+
+.btn{
+    background-color: red;
+    cursor: pointer;
+}
+
+.emailbox {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 44%;
+    margin-left: 67px;
+}
+
+.emailinput {
+    width: 80%;
+    color: #fff;
+    padding: 10px 15px;
+    line-height: 24px;
+    background-color: transparent;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.emailbtn {
+    padding: 10px 20px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 45px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .emailbtn {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .emailinput{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .emailbox{
+        margin-top: 5px;
+    }
 }
 
