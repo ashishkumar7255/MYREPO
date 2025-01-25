@@ -13,6 +13,7 @@
     height: 92vh;
     width: 100%;
     position: relative;
+    overflow: scroll;
 }
 
 .overbox {
@@ -153,3 +154,129 @@ nav .rightnav .lang{
     }
 }
 
+.segment{
+    height: 8px;
+    position: relative;
+    background-color: gray;
+}
+
+.join{
+    height: 200vh;
+    background-color: black;
+    color: white;
+}
+
+.headjoin{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 60px;
+    padding-left: 100px;
+    font-family: "Martel Sans", serif;
+}
+
+.block {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px; 
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.join .block .sec1 {
+    padding: 20px;
+    position: relative;
+    height: 35vh;
+    width: 20vw;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    border-radius: 10px;
+    font-family: "Martel Sans", serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    justify-content: space-between;
+}
+
+.join .block .sec1 h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.join .block .sec1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 10px 0;
+    color: #ddd;
+}
+
+.join .block .sec1 img {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    width: 80px;
+    height: auto;
+}
+
+.faq-section {
+    max-width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(45,45,45);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 15px;
+    margin: 10px;
+  }
+  
+  .faq-toggle {
+    display: none;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: rgb(45,45,45);
+    transition: background-color 0.3s;
+  }
+  
+  .faq-question h3 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .faq-question .arrow {
+    font-size: 18px;
+    color: white;
+    transition: transform 0.3s;
+  }
+  
+
+   
+  .faq-answer {
+    display: none;
+    padding: 15px 20px;
+    background-color: rgb(45,45,45);
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .faq-toggle:checked ~ .faq-answer {
+    display: block;
+  }
+
+  .sec8{
+    margin: 20px auto;
+  }
