@@ -142,3 +142,36 @@ body {
     height: 8vh;
     margin-right: 30px;
 }
+
+.imgscroll{
+    width: 100%;
+    height: 30vh;
+    white-space: nowrap;
+}
+
+.imgbox{
+    height: 100%;
+    width: 100%;  
+    display: inline-block;
+    animation-name: scrool;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.imgbox img{
+    height: 80%;
+    width: 12%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+@keyframes scrool {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
