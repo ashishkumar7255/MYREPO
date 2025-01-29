@@ -78,7 +78,6 @@ body {
 .vdo {
     width: 100%;
     height: 100%;
-    background-color: black;
     position: relative;
 }
 
@@ -267,6 +266,84 @@ body {
 .introm p{
     font-size: 15px;
     padding: 0 1vw;
+}
+
+#txt{
+    height: 10vh;
+    width: 100%;
+    padding: 15px 6vw;
+}
+
+#txt h1{
+    font-family: monument;
+}
+
+.page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pegpart1{
+    margin-top: 0;
+    height: 80%;
+    width: 35%;
+    margin-left: 5vw;    
+}
+
+.pegpart1 img{
+    margin-left: 25%;
+    margin-top: 15%;
+    height: 45%;
+    width: 50%;
+    mix-blend-mode: color-burn;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pegpart1 h3{
+    font-size: 20px;
+    padding: 0 1vw;
+    font-weight: 200;
+    margin-left: 18%;
+    margin-top: 25%;
+    overflow-y: scroll;
+}
+
+.pegpart2{
+    height: 80%;
+    width: 40%;
+    margin-top: 0;
+    margin-right: 5vw;
+    background-image: url('images/img3.jpg');
+    background-size: cover;
+    background-position: 10% 10%;
+    background-repeat: no-repeat;
+}
+
+.ntr{
+    margin-top: -10vh;
+}
+
+@media (max-width: 767px) {
+    .pegpart1 {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .pegpart1 img {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 5%;
+        mix-blend-mode: color-burn;
+        object-fit: contain;
+        object-position: center;
+    }
 }
 
 /* General styles for small devices (phones) */
