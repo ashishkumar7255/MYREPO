@@ -137,21 +137,21 @@ body {
     padding: 20px 0;
 }
 
-.part2 img{
+.part2 img {
     height: 8vh;
     margin-right: 30px;
 }
 
-.imgscroll{
+.imgscroll {
     width: 100%;
     height: 30vh;
     white-space: nowrap;
     overflow: hidden;
 }
 
-.imgbox{
+.imgbox {
     height: 100%;
-    width: 100%;  
+    width: 100%;
     display: inline-block;
     animation-name: scrool;
     animation-duration: 12s;
@@ -159,7 +159,7 @@ body {
     animation-timing-function: linear;
 }
 
-.imgbox img{
+.imgbox img {
     height: 80%;
     width: 12%;
     border-radius: 50%;
@@ -168,22 +168,24 @@ body {
 }
 
 @keyframes scrool {
-    from{
+    from {
         transform: translateX(0);
     }
-    to{
+
+    to {
         transform: translateX(-100%);
     }
 }
 
-.alphasec{
+.alphasec {
     height: 10vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.alpha{
+
+.alpha {
     height: 100%;
     width: 100%;
     border-top: 2px solid black;
@@ -196,25 +198,25 @@ body {
     overflow: scroll;
 }
 
-.all{
+.all {
     font-size: 24px;
     font-weight: 700;
     padding-right: 2vw;
 }
 
-.section1{
+.section1 {
     font-size: 14px;
     font-weight: 600;
     padding: 12px;
 }
 
-.alphasec .alpha .section1:hover{
+.alphasec .alpha .section1:hover {
     border: 2px solid black;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.model{
+.model {
     height: 100%;
     width: 100%;
     display: flex;
@@ -225,7 +227,7 @@ body {
     padding-right: 6vw;
 }
 
-.mpart1{
+.mpart1 {
     height: 98%;
     width: 56%;
     background-image: url('https://storage.needpix.com/rsynced_images/fashion-3359195_1280.jpg');
@@ -234,19 +236,19 @@ body {
     background-repeat: no-repeat;
 }
 
-.mpart2{
+.mpart2 {
     height: 96%;
     width: 38%;
 }
 
-.mpart2 img{
+.mpart2 img {
     height: 80%;
     width: 100%;
     object-fit: cover;
     object-position: 10% 10%;
 }
 
-.introm{
+.introm {
     height: 15%;
     width: 100%;
     font-family: monument;
@@ -257,28 +259,28 @@ body {
     overflow: scroll;
 }
 
-.introm h4{
+.introm h4 {
     font-size: 20px;
     line-height: 3vh;
     padding: 0 1vw;
 }
 
-.introm p{
+.introm p {
     font-size: 15px;
     padding: 0 1vw;
 }
 
-#txt{
+#txt {
     height: 10vh;
     width: 100%;
     padding: 15px 6vw;
 }
 
-#txt h1{
+#txt h1 {
     font-family: monument;
 }
 
-.page{
+.page {
     height: 100%;
     width: 100%;
     display: flex;
@@ -286,14 +288,14 @@ body {
     align-items: center;
 }
 
-.pegpart1{
+.pegpart1 {
     margin-top: 0;
     height: 80%;
     width: 35%;
-    margin-left: 5vw;    
+    margin-left: 5vw;
 }
 
-.pegpart1 img{
+.pegpart1 img {
     margin-left: 25%;
     margin-top: 15%;
     height: 45%;
@@ -303,7 +305,7 @@ body {
     object-position: center;
 }
 
-.pegpart1 h3{
+.pegpart1 h3 {
     font-size: 20px;
     padding: 0 1vw;
     font-weight: 200;
@@ -312,7 +314,7 @@ body {
     overflow-y: scroll;
 }
 
-.pegpart2{
+.pegpart2 {
     height: 80%;
     width: 40%;
     margin-top: 0;
@@ -323,7 +325,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.ntr{
+.ntr {
     margin-top: -10vh;
 }
 
@@ -346,59 +348,359 @@ body {
     }
 }
 
+.updates {
+    height: 80%;
+    width: 100%;
+    padding: 5vh 3vw;
+}
+
+.updates h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    font-family: monument;
+    text-align: center;
+    margin-bottom: 6vh;
+}
+
+.about {
+    height: 21%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    border-top: 2px solid gray;
+}
+
+.about .h4 {
+    height: 100%;
+    width: 10%;
+    padding-top: 2.5vh;
+    padding-left: 2.5vw;
+}
+
+.about .h4 h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about .imgn {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .imgn img {
+    height: 90%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.spa {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spa h1 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.spa p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer {
+    margin-top: 3vh;
+    height: 10vh;
+    width: 100%;
+    background-color: gainsboro;
+    color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    border: 1px solid gray;
+    font-size: 18px;
+}
+
+.footer .foot:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    font-weight: 600
+}
+
+/* For smaller screens (Mobile devices) */
+@media only screen and (max-width: 480px) {
+    .updates {
+        padding: 3vh 2vw;
+    }
+
+    .updates h1 {
+        font-size: 14px;
+        margin-bottom: 3vh;
+    }
+
+    .about {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 3vh;
+    }
+
+    .about .h4 {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 1vh;
+        text-align: center;
+    }
+
+    .about .imgn {
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+
+    .about .imgn img {
+        width: 50%;
+        height: auto;
+        margin-left: 5vw;
+    }
+
+    .spa {
+        width: 100%;
+        text-align: center;
+    }
+
+    .spa h1 {
+        font-size: 14px;
+    }
+
+    .spa p {
+        font-size: 10px;
+    }
+
+    .about .h4 h4 {
+        font-size: 12px;
+    }
+}
+
+
+
 /* General styles for small devices (phones) */
 @media (max-width: 767px) {
+    .updates {
+        padding: 4vh 2vw;
+    }
+
+    .center {
+        height: auto;
+    }
+
+    .model {
+        height: auto;
+    }
+
+    .mpart1 {
+        height: 50vh;
+        margin-top: 2vh;
+        padding: 0;
+    }
+
+    .mpart2{
+        height: 50vh;
+        padding: 0;
+    }
+
+    .mpart2 img{
+        margin-top: 2vh;
+        height: 38%;
+    }
+
+    .introm{
+        height: 32vh;
+    }
+    .introm p{
+        font-size: 10px;
+    }
+
+    .introm h4{
+        font-size: 12px;
+    }
+
+    .vdo {
+        height: auto;
+        width: 100%;
+    }
+
+    #txt{
+        margin-top: 1vh;
+        font-size: 12px;
+    }
+
+    .page{
+        height: auto;
+        margin: 5vh 0;
+    }
+
+    .page .pegpart1{
+        height: 100%;
+        width: 35%;
+    }
+
+    .page .pegpart2{
+        height: 48vh;
+        width: 40vw;
+        margin-right: 5vw;
+        margin-bottom: 5vh;
+    }
+
+    .pegpart1 img{
+        margin: 0;
+        padding: 0;
+        margin-top: -15vh;
+    }
+    .pegpart1 h3{
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .updates h1 {
+        font-size: 20px;
+        margin-bottom: 2vh;
+    }
+
+    .about {
+        flex-direction: column;
+        height: auto;
+        margin: 5px;
+        padding: 0;
+    }
+
+    .about .h4 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about .imgn {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about .imgn img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .spa {
+        width: 100%;
+        text-align: center;
+    }
+
+    .spa h1 {
+        font-size: 14px;
+    }
+
+    .spa p {
+        font-size: 10px;
+    }
+
     .nav {
         flex-wrap: wrap;
         height: auto;
         padding: 10px;
     }
-    .nav .head, .nav .head2, .nav .icn {
+
+    .nav .head,
+    .nav .head2,
+    .nav .icn {
         width: 100%;
         justify-content: flex-start;
         text-align: left;
         padding: 5px 10px;
     }
+
     .nav .head {
         font-size: 28px;
     }
+
     .nav .head2 {
-        font-size: 18px;
+        font-size: 12px;
         border: none;
     }
-    .center {
-        padding: 2vw;
+
+    .ntr{
+        margin: 0;
+        height: auto;
     }
+
+    .center{
+        height: auto;
+        margin: 0;
+    }
+
+    .updates{
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .updates .about{
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
     .part1 h1 {
-        font-size: 28px;
+        font-size: 18px;
         margin-left: 10px;
         line-height: 1.2;
     }
+
     .circle {
         width: 50px;
         height: 50px;
         font-size: 28px;
     }
+
     .part2 {
         font-size: 12px;
         margin: 0 10px;
     }
+
     .part2 img {
         height: 5vh;
     }
+
     .imgscroll {
-        height: 20vh;
+        height: 15vh;
     }
+
     .imgbox img {
-        width: 20%;
+        width: 11.9%;
     }
+
     .alphasec {
         height: auto;
     }
+
     .alpha {
         flex-wrap: wrap;
         gap: 0.5vw;
     }
+
     .alpha .section1 {
         font-size: 12px;
         padding: 6px;
@@ -410,25 +712,35 @@ body {
     .nav .head {
         font-size: 35px;
     }
+
     .nav .head2 {
         font-size: 20px;
     }
+
     .circle {
         width: 60px;
         height: 60px;
         font-size: 35px;
     }
+
     .part1 h1 {
         font-size: 35px;
     }
+
     .part2 {
         font-size: 14px;
     }
+
     .imgscroll {
         height: 25vh;
     }
+
     .imgbox img {
         width: 15%;
+    }
+
+    .page .pegpart1{
+        height: auto;
     }
 }
 
@@ -437,17 +749,21 @@ body {
     .nav {
         padding: 15px 0;
     }
+
     .nav .head {
         font-size: 41px;
     }
+
     .center {
         padding: 5vw;
     }
+
     .circle {
         width: 70px;
         height: 70px;
         font-size: 40px;
     }
+
     .imgbox img {
         width: 12%;
     }
